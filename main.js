@@ -1,11 +1,10 @@
 let btn = document.querySelector('button');
-<button>My button</button>
 
 btn.addEventListener("click", () => {
     let x = Math.floor(Math.random() * 255);
     let y = Math.floor(Math.random() * 255);
     let z = Math.floor(Math.random() * 255);
-    let bgColor = "rgb" + x + "," + y + "," + z + ")";
+    let bgColor = "rgb(" + x + "," + y + "," + z + ")";
 
     document.body.style.background = bgColor;
 
@@ -23,10 +22,6 @@ btn.addEventListener("click", () => {
         document.body.appendChild(elem[i]);
     }
 })
-
-document.addEventListener('DOMContentLoaded', function () {
-
-});
 
 removeText.onclick = function () {
     removeText.remove();
