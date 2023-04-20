@@ -41,3 +41,27 @@
 .page4 {
     background-image: url("/image/4_0_bg.png");
 }
+
+
+.img1_1 {
+    /* display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh; */
+
+    max-width: 1247px;
+    max-height: 181px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
+
+.img1_2 {
+    max-width: 800px;
+    max-height: 800px;
+
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
