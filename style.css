@@ -166,3 +166,64 @@
     left: 57%;
     z-index: 1;
 }
+
+/* PAGE THREE */
+
+.img3_1 {
+    max-width: 1247px;
+    max-height: 181px;
+
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+
+
+    width: 70%;
+}
+
+.img3_2 {
+    /* display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh; */
+
+    max-width: 474px;
+    max-height: 538px;
+
+    align-items: flex-end;
+
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+
+    width: 70%;
+}
+
+.img3_3 {
+    max-width: 886px;
+    max-height: 103px;
+
+    position: absolute;
+    top: 560%;
+    left: 30%;
+    z-index: 1;
+}
+
+input[type=text] {
+    height: 50px;
+    width: 100px;
+
+    position: absolute;
+    top: 300%;
+    left: 44%;
+
+    padding: 12px 20px;
+    margin: 10px 0;
+    box-sizing: 0.5px;
+
+    text-align: center;
+
+    border: none;
+    background-color: #926c37;
+    color: white;
+}
