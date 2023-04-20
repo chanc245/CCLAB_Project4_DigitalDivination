@@ -42,6 +42,12 @@
     background-image: url("/image/4_0_bg.png");
 }
 
+/* HOVER ANIMATION */
+
+.imgHover:hover {
+    transform: translateX(0px);
+    -webkit-transform: translateY(-5px);
+}
 
 /* PAGE ONE */
 
@@ -109,11 +115,6 @@
     z-index: 1;
 }
 
-.img1_3:hover {
-    transform: translateX(0px);
-    -webkit-transform: translateY(-5px);
-}
-
 /* PAGE TWO */
 
 .img2_1 {
@@ -144,4 +145,24 @@
     margin-right: auto;
 
     width: 100%;
+}
+
+.img2_3_cold {
+    max-width: 350px;
+    max-height: 170px;
+
+    position: absolute;
+    top: 50%;
+    left: 15%;
+    z-index: 1;
+}
+
+.img2_3_warm {
+    max-width: 350px;
+    max-height: 170px;
+
+    position: absolute;
+    top: 50%;
+    left: 57%;
+    z-index: 1;
 }
