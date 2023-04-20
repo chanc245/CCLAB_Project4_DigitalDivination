@@ -51,6 +51,7 @@
 
     max-width: 1247px;
     max-height: 181px;
+
     display: block;
     margin-left: auto;
     margin-right: auto;
@@ -64,4 +65,49 @@
     display: block;
     margin-left: auto;
     margin-right: auto;
+}
+
+.img1_3_num1 {
+    max-width: 100px;
+    max-height: 100px;
+
+    position: absolute;
+    top: 42%;
+    left: 32%;
+    z-index: 1;
+}
+
+.img1_3_num7 {
+    max-width: 100px;
+    max-height: 100px;
+
+    position: absolute;
+    top: 67%;
+    left: 41%;
+    z-index: 1;
+}
+
+.img1_3_num13 {
+    max-width: 100px;
+    max-height: 100px;
+
+    position: absolute;
+    top: 32%;
+    left: 51%;
+    z-index: 1;
+}
+
+.img1_3_num47 {
+    max-width: 100px;
+    max-height: 100px;
+
+    position: absolute;
+    top: 60%;
+    left: 58%;
+    z-index: 1;
+}
+
+.img1_3:hover {
+    transform: translateX(0px);
+    -webkit-transform: translateY(-5px);
 }
