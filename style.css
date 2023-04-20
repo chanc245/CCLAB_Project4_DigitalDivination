@@ -27,26 +27,28 @@
 }
 
 .page1 {
-    background-image: url("/image/1_0_bg.png");
+    background-image: url("/CCLAB_Project4_DigitalDivination/image/1_0_bg.png");
 }
 
 .page2 {
-    background-image: url("/image/2_0_bg.png");
+    background-image: url("/CCLAB_Project4_DigitalDivination/image/2_0_bg.png");
 }
 
 .page3 {
-    background-image: url("/image/3_0_bg.png");
+    background-image: url("/CCLAB_Project4_DigitalDivination/image/3_0_bg.png");
 }
 
 .page4 {
-    background-image: url("/image/4_0_bg.png");
+    background-image: url("/CCLAB_Project4_DigitalDivination/image/4_0_bg.png");
 }
 
 /* HOVER ANIMATION */
 
 .imgHover:hover {
     transform: translateX(0px);
-    -webkit-transform: translateY(-5px);
+    transition-duration: 1s;
+    transition-property: transform;
+    -webkit-transform: translateY(-10px);
 }
 
 /* PAGE ONE */
